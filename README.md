@@ -2,11 +2,7 @@
 
 ### Detecting CNVs from exome sequencing data
 
-#### 
-
-<center>[Tutorial](#Tutorial)   |   [Contact](#Contact)   |   [Cite](#Cite)</center>
-
-<a name="Tutorial"></a>
+[Backenroth D, et al, Nucleic Acids Research 2014](http://www.ncbi.nlm.nih.gov/pubmed/24771342) 
 
 #### Tutorial
 
@@ -15,7 +11,7 @@ To run CANOES, you will need
 1.  bedtools, available from [http://bedtools.readthedocs.org/en/latest/](http://bedtools.readthedocs.org/en/latest/)
 2.  R, with packages nnls, Hmisc, mgcv and plyr installed. You can install these by executing the following command: `install.packages(c("nnls", "Hmisc", "mgcv", "plyr"))`.
 3.  GATK
-4.  [CANOES.R](https://github.com/ShenLab/CANOES)
+4.  [CANOES.R](https://github.com/ShenLab/CANOES/blob/master/CANOES.R)
 
 CANOES requires a data frame with the coordinates, GC content and read count per sample for each exome capture region.
 
@@ -99,15 +95,11 @@ The SQDel score for the first CNV is high (99) because this CNV was called in sa
 
 * * *
 
-<a name="Contact"></a>
-
 #### Contact
 
 Daniel Backenroth (db2175 at columbia.edu) or Yufeng Shen ( ys2411 at columbia.edu)
 
 * * *
-
-<a name="Cite"></a>
 
 #### How to cite:
 
